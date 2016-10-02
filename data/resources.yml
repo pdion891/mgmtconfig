@@ -1,0 +1,13 @@
+data: "This section lists all the built-in resources and their properties. The
+resource primitives in `mgmt` are typically more powerful than resources in
+other configuration management systems because they can be event based which
+lets them respond in real-time to converge to the desired state. This property
+allows you to build more complex resources that you probably hadn't considered
+in the past.
+<br><br>
+In addition to the resource specific properties, there are resource properties
+(otherwise known as parameters) which can apply to every resource. These are
+called [meta parameters](#meta-parameters) and are listed separately. Certain
+meta parameters aren't very useful when combined with certain resources, but
+in general, it should be fairly obvious, such as when combining the `noop` meta
+parameter with the [Noop](noop) resource."
